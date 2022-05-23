@@ -1,7 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    margin: 0%;
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #000;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+    font-family: 'Koulen', cursive;
+}
+
+
+
+h2 {
+    max-width: 375px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+p {
+    max-width: 375px;
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.top-bar {
+
+}
+
+.top-bar {
+    display: flex;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bold {
+    font-weight: 700;
+    color: #111235;
+
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+
+}
+
+#max {
+    max-width: 375px;
+}
+
+.heroText-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.hero-text {
+    max-width: 375px;
+    font-size: 2.5rem;
+    color: #111235;
+    text-align: center;
+    justify-content: center;
+    margin-top: -5rem;
+}
+
+.heroBtn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
 }
