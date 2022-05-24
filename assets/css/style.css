@@ -59,7 +59,7 @@ span {
 
 }
 
-#max {
+#max, #max-girl {
     max-width: 375px;
 }
 
@@ -94,6 +94,6 @@ span {
     text-align: center;
     justify-content: center;
     margin-top: -5rem;
-    border-radius: 10px;
+    border-radius: 35px;
     background-color: #4B5092;
 }
