@@ -60,7 +60,7 @@ span {
 
 }
 
-#max, #max-girl, p2 {
+#max, #max-girl, p2, .fitness-alex {
     max-width: 375px;
 }
 
@@ -128,4 +128,16 @@ span {
     top: 1901px;
     margin: 5rem auto;
     background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+    
+}
+
+.fitness-alex img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 375px;
+    left: 0px;
+    top: 1901px;
+    margin-top: 35.4rem;
 }
