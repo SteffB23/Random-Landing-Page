@@ -116,3 +116,16 @@ span {
     border-radius: 35px;
     background-color: #4B5092;
 }
+
+.fitness-container {
+    max-width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 414px;
+    height: 942px;
+    left: 0px;
+    top: 1901px;
+    margin: 5rem auto;
+    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+}
