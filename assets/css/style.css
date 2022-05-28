@@ -11,7 +11,9 @@ body {
     font-family: 'Koulen', cursive;
 }
 
-
+h1 {
+    max-width: 375px;
+}
 
 h2 {
     max-width: 375px;
@@ -91,7 +93,7 @@ span {
 
 .hero-text2 {
     max-width: 375px;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #111235;
     text-align: left;
     justify-content: center;
@@ -119,25 +121,41 @@ span {
 
 .fitness-container {
     max-width: 375px;
-    display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     width: 300px;
-    height: 942px;
+    height: 842px;
     left: 0px;
     top: 1901px;
-    margin: 5rem auto;
+    margin: 4rem auto;
+    font-size: 1.2rem;
     background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
-    
 }
 
-.fitness-alex img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.fitness-container p, h1 {
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+#alex {
+    max-width: 375px;
     width: 300px;
     height: 300px;
-    left: 0px;
-    top: 1901px;
-    margin-top: 40rem;
+    margin-top: 4.4rem;
 }
+
+.alex-btn 
+    {
+        max-width: 375px;
+        font-size: 1rem;
+        color: #4B5092;
+        text-align: center;
+        justify-content: center;
+        margin-top: 5rem;
+        background-color: #fff;
+        height: 59px;
+        width: 252px;
+        border-radius: 35px;
+
+    }
