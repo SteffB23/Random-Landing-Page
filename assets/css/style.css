@@ -157,5 +157,16 @@ span {
         height: 59px;
         width: 252px;
         border-radius: 35px;
-
     }
+
+.benefits-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.benefits-section {
+    
+}
