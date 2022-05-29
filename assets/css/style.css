@@ -161,12 +161,37 @@ span {
 
 .benefits-container {
     display: flex;
-    flex-direction: column;
+    margin: auto;
     justify-content: center;
-    align-items: center;
     margin-top: 5rem;
 }
 
+#bbw {
+    max-width: 375px;
+    width: 300px;
+    height: 300px;
+    margin-top: 4.4rem;
+}
+
+.bbw-textCtr {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.bbw-text {
+    
+    width: 100%;
+    font-size: 3.5rem;
+    color: #111235;
+    text-align: center;
+    justify-content: center;
+    margin-top: -0rem;
+}
+
+.bbw-text:nth-of-type(1){
+    display: flex;
+
+}
 .benefits-section {
     
 }
