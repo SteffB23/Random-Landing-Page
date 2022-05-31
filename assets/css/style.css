@@ -327,3 +327,6 @@ input[type='text'] {
     margin-bottom: 8rem;
     text-align: center;
 }
+.cashApp-Logo {
+    border-radius: 8px;
+}
