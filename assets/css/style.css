@@ -312,6 +312,7 @@ input[type='text'] {
     background-color: #fff;
     border-radius: 8px;
     margin-left: .5rem;
+    margin-right: .5rem;
 }
 .social-icons {
     display: flex;
