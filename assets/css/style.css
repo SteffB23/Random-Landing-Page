@@ -314,7 +314,7 @@ input[type='text'] {
     margin-right: .5rem;
 }*/
 
-.social-icons {
+/*.social-icons {
     display: flex;
     flex-direction: row;
     width: 205px;
@@ -322,7 +322,35 @@ input[type='text'] {
     align-items: center;
     padding: 0px;
     margin: 1rem auto;
+}*/
+
+.footer-icons {
+    margin: 25px auto;
+    width: 50%;
+    display: flex;
+    
 }
+
+.icons-circle {
+    display: flex;
+    align-items: center;
+    /*background: rgba(128, 173, 245, .2); */
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.icons-circle > a {
+    
+    
+    font-size: 1.5rem;
+    
+  
+}
+
+
+
 #copyright {
     margin-top: 4rem;
     margin-bottom: 8rem;
